@@ -1,0 +1,50 @@
+using UnityEngine;
+using System.Linq;
+using UnityEditor.Experimental.GraphView;
+using UnityEngine.UIElements;
+
+public class #SCRIPTNAME# : BaseStageNode
+{
+    // TODO: 필요한 UI 컴포넌트 선언 (예: TextField, EnumField 등)
+
+    public #SCRIPTNAME#(string nodeGuid, string nodeName) : base(nodeGuid, nodeName) { }
+
+    #region element
+    protected override void SetElementsByType()
+    {
+        // 1. 컴포넌트 및 포트 생성 (new)
+        
+        // 2. 계층 구조 등록 (nodeContainer.Add / bottomPortContainer.Add)
+    }
+
+    protected override void SetNodeStyleByType()
+    {
+        // 1. 컨테이너 레이아웃 세팅 (width, flexDirection 등)
+
+        // 2. 컴포넌트 세부 시각 스타일 세팅
+    }
+    #endregion
+
+    #region save-load
+    public override BaseStageNodeData SaveToData()
+    {
+        // TODO: 알맞은 자식 데이터 클래스(Data 뭉치)를 생성하여 반환하세요.
+        
+        return null;
+
+        //공용 노드 데이터
+        /*
+            nodeGuid = this.nodeGuid,
+            nodeName = this.nodeName,
+            nodeType = this.nodeType,
+            nodePosition = this.GetPosition().position,
+        */
+    }
+
+    protected override void LoadByType(BaseStageNodeData data)
+    {
+        // TODO: 해당 노드 타입 정의 및 데이터 복구 로직 작성
+        // nodeType = StageNodeType.YourType;
+    }
+    #endregion
+}

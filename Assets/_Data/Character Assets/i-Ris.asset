@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f5bdb95c87845b8a386ad2ac5c98e3, type: 3}
+  m_Name: i-Ris
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterAsset
+  id: 7
+  PortraitSprites:
+  - id: idle
+    sprite:
+      m_AssetGUID: 59596f21a2df04c0b8fac4fe837f8031
+      m_SubObjectName: character01_sprite_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - id: talk
+    sprite:
+      m_AssetGUID: 59596f21a2df04c0b8fac4fe837f8031
+      m_SubObjectName: character01_sprite_1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - id: happy
+    sprite:
+      m_AssetGUID: 59596f21a2df04c0b8fac4fe837f8031
+      m_SubObjectName: character01_sprite_2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  AllInSprite:
+    m_AssetGUID: 1628c2071be564e4a9383566a92a570a
+    m_SubObjectName: all_in_cutscene
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  ReactionLine: {fileID: 11400000, guid: 77c49d06c5c64435eb5897b31833967e, type: 2}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3561296157138438729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8132124836342340912}
+  - component: {fileID: 4103289455950476368}
+  m_Layer: 0
+  m_Name: Scenario Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8132124836342340912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3561296157138438729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.04811, y: -8.68795, z: 28.62787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4103289455950476368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3561296157138438729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8558840f8b84044c1b31a9e72681c9ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SenarioManager
+  allRouteDatas:
+  - {fileID: 11400000, guid: 30ba276369573446ba08999c7a66001e, type: 2}
+  currentRouteIndex: 0
+  allStageEventDatas:
+  - {fileID: 11400000, guid: 1fa96006273a64db69b92c8e9bf6a357, type: 2}
+  prologueStageData: {fileID: 11400000, guid: 4e04d723c07fc4c33aa272d86bd90715, type: 2}
+  prologueEventData: {fileID: 11400000, guid: 62c01c3bc8ed643718c19d57aeccf7d0, type: 2}
+  defualtEventData: {fileID: 11400000, guid: 2bda9212714eb4d969035c05dbd63d34, type: 2}

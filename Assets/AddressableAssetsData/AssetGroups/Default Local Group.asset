@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: 4d0fe696320284605854932185d13c91
+  m_SerializeEntries:
+  - m_GUID: 07a20edf8bef84e9c8588dab2668bcb6
+    m_Address: sfx/card/draw
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SFX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c7d7433a4a6c4fe38949f37076260e0
+    m_Address: Assets/_Data/Character Assets/i-Ris.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f94f4e7391364ff495c7f429d5fd9f7
+    m_Address: Assets/_Data/BGM Datas/Joyful Life.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1628c2071be564e4a9383566a92a570a
+    m_Address: Assets/Art/UI/Character/all_in_cutscene.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1be6a03ba96b24538b55352d457c4a9c
+    m_Address: BGM/Cozy Home
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36b429c1c26064735902c8fbe2ef3b6b
+    m_Address: BGM/Bright News
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ca59de42965a49c2870976c06207359
+    m_Address: Assets/_Data/BGM Datas/Bright News.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48d12109dd4a343bd883436c732af9b9
+    m_Address: BGM/Sleep In Bed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59596f21a2df04c0b8fac4fe837f8031
+    m_Address: Assets/Art/UI/Character/character01_sprite.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d2711fb2095e4a22b83a03d32e67090
+    m_Address: Assets/_Data/Episode Assets/Prologue.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Episode
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 763c3bd7e3b0649098bd89eee1cc11bd
+    m_Address: BGM/Neon Light
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f52edf4eff6d4a99be083f6f251d8b8
+    m_Address: BGM/In to the Matrix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fa6b6c329e2b4fbc9c0a006d1ab9a5d
+    m_Address: Assets/_Data/BGM Datas/Sleep In Bed.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8af5c147bcbbb4eec8478d1ac6d91e9b
+    m_Address: Assets/_Data/BGM Datas/Casino_Default.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6d42c75b63c8429ca75c16ed8313929
+    m_Address: Assets/_Data/BGM Datas/In to the Matrix.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acda62767601148d78282084867dcecd
+    m_Address: Assets/_Data/BGM Datas/Home_Default.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGM
+    - Home
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4ba120006155472d876f9c63160cade
+    m_Address: Assets/_Data/Character Assets/Yuan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c359478d7fe1c496ba73d4068483d430
+    m_Address: BGM/Joyful Life
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d18c6ea3453da4389b9f43c36593f196
+    m_Address: Assets/_Data/Character Assets/Grayle.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddd3e96db452b4c66a00b6ae2d7be200
+    m_Address: Assets/_Data/Episode Assets/Act 1/Act1_Ch1_EP1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Episode
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de28cb5302e3241e6952c0cf89f18609
+    m_Address: Assets/Art/UI/Stage/bg_sprite_casino.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1dd890f4e4605401185e072376d29a66, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 590112b2a9f2e434cb6b5df4fc00931b, type: 2}
+    - {fileID: 11400000, guid: d283be6c9fbde4b529c2c73a9e874657, type: 2}

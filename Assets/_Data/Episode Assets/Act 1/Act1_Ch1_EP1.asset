@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f7480b6ccf34d85b8e9b4442987b9b, type: 3}
+  m_Name: Act1_Ch1_EP1
+  m_EditorClassIdentifier: Assembly-CSharp::EpisodeAsset
+  EpisodeKey:
+    RouteId: Act1
+    Chapter: 1
+    EpisodeId: EP1
+  Map: 0
+  EpisodeType: 0
+  Weight: 100
+  startNodeData:
+    nodeGuid: c03166ec-ad4e-44e8-9b5a-99e77b7dfecd
+    nodeName: Start Node
+    nodePosition: {x: 277, y: 136}
+    nodeType: 0
+    nextNodeGuid: 59086a86-85e1-4847-8583-25ca754e9a50
+  dialogueNodes:
+  - nodeGuid: 59086a86-85e1-4847-8583-25ca754e9a50
+    nodeName: Dialogue
+    nodePosition: {x: 178, y: 247}
+    nodeType: 1
+    charId: 6
+    text: "episode asset\uC73C\uB85C \uBCC0\uACBD\uD558\uACE0 \uCC55\uD1301"
+    nextNodeGuid: 1a242dd7-214a-49f0-9289-6260295525f4
+  choiceNodes: []
+  spriteNodes: []
+  passOnlyNodes: []
+  endNodes:
+  - nodeGuid: 1a242dd7-214a-49f0-9289-6260295525f4
+    nodeName: Return Home
+    nodePosition: {x: 269, y: 437}
+    nodeType: 14
+  addFlags: []
+  removeFlages: []
+  requiredFlags: []
+  blockedFlags: []

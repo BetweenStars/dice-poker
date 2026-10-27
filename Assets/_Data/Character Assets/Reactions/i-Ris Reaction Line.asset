@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e2599fd78b04197836f25d4f3e5a7f, type: 3}
+  m_Name: i-Ris Reaction Line
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterReactionLine
+  onCheck:
+  - "\uCCB4\uD06C"
+  onCall:
+  - "\uCF5C"
+  onFold:
+  - "\uD3F4\uB4DC"
+  onRaise:
+  - "\uB808\uC774\uC988"
+  onAllIn:
+  - "\uC62C\uC778!"
+  onChecked:
+  - "\uD750\uC74C"
+  onCalled:
+  - "\uC624"
+  onFolded:
+  - "\uADF8\uB7F4 \uC904 \uC54C\uC558\uC9C0"
+  onRaised:
+  - "\uB108\uBB34 \uBB34\uB9AC\uD558\uB294 \uAC70 \uC544\uB2C8\uC57C?"
+  onAllIned:
+  - "\uC5B4\uB77C?"

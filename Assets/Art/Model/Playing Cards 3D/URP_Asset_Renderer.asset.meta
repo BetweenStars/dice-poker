@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5405297eb4ede13458560cab9d5861cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154780
+  packageName: Free Playing Cards Pack
+  packageVersion: 1.0
+  assetPath: Assets/Playing Cards/URP_Asset_Renderer.asset
+  uploadId: 745969

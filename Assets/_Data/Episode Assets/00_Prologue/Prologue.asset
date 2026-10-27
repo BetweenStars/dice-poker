@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f7480b6ccf34d85b8e9b4442987b9b, type: 3}
+  m_Name: Prologue
+  m_EditorClassIdentifier: Assembly-CSharp::EpisodeAsset
+  EpisodeKey:
+    RouteId: Prologue
+    Chapter: 0
+    EpisodeId: Prologue
+  Map: 1
+  EpisodeType: 0
+  Weight: 100
+  backgroundSprite:
+    m_AssetGUID: de28cb5302e3241e6952c0cf89f18609
+    m_SubObjectName: bg_sprite_casino
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  startNodeData:
+    nodeGuid: fb77a87e-e188-40cf-a303-7fe5d033464e
+    nodeName: Start Node
+    nodePosition: {x: 280, y: -108}
+    nodeType: 0
+    nextNodeGuid: b772dcbc-f4d8-4e1a-9ffe-abbc0a1fc9f2
+  dialogueNodes:
+  - nodeGuid: 1fb59285-79af-42d0-8f65-92f31a1fb862
+    nodeName: Dialogue
+    nodePosition: {x: 235, y: 398}
+    nodeType: 2
+    charId: 0
+    text: "\uC18C\uB9AC \uC798 \uB098\uC624\uB098"
+    nextNodeGuid: b2d9b97c-f756-4eda-80f2-943db255db66
+  - nodeGuid: 92a2846f-642c-48a8-9c1a-175805eff4e7
+    nodeName: Dialogue
+    nodePosition: {x: 188, y: 1728}
+    nodeType: 2
+    charId: 0
+    text: "\uCE74\uB4DC \uC18C\uB9AC \uC798 \uB0AC\uB098"
+    nextNodeGuid: 608af201-4d80-4f55-9945-4f90f43ddc74
+  choiceNodes: []
+  spriteNodes:
+  - nodeGuid: b772dcbc-f4d8-4e1a-9ffe-abbc0a1fc9f2
+    nodeName: Sprite
+    nodePosition: {x: 220, y: 93}
+    nodeType: 4
+    spriteAction: 0
+    charId: 7
+    position: 3
+    speed: 1
+    spriteId: idle
+    nextNodeGuid: 952ac156-bc00-459f-bcb3-c36f99852d03
+  audioNodes:
+  - nodeGuid: 952ac156-bc00-459f-bcb3-c36f99852d03
+    nodeName: Audio
+    nodePosition: {x: 235, y: 244}
+    nodeType: 102
+    audioType: 0
+    clipRef:
+      m_AssetGUID: 763c3bd7e3b0649098bd89eee1cc11bd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    nextNodeGuid: 1fb59285-79af-42d0-8f65-92f31a1fb862
+  passOnlyNodes:
+  - nodeGuid: b2d9b97c-f756-4eda-80f2-943db255db66
+    nodeName: Ante
+    nodePosition: {x: 316, y: 614}
+    nodeType: 200
+    nextNodeGuid: b69696a2-a39e-4ed5-b0d1-a455099fadee
+  - nodeGuid: b69696a2-a39e-4ed5-b0d1-a455099fadee
+    nodeName: Deal
+    nodePosition: {x: 316, y: 714}
+    nodeType: 202
+    nextNodeGuid: e9b3deb4-626d-4dc7-8ae5-1e5003d20907
+  - nodeGuid: e9b3deb4-626d-4dc7-8ae5-1e5003d20907
+    nodeName: Bet
+    nodePosition: {x: 316, y: 814}
+    nodeType: 204
+    nextNodeGuid: c3732d75-e015-4e29-b745-fb443f038ff0
+  - nodeGuid: c3732d75-e015-4e29-b745-fb443f038ff0
+    nodeName: Roll
+    nodePosition: {x: 316, y: 914}
+    nodeType: 203
+    nextNodeGuid: 8debfd90-bd33-4f6b-be19-084ead7db8e4
+  - nodeGuid: 8debfd90-bd33-4f6b-be19-084ead7db8e4
+    nodeName: Bet
+    nodePosition: {x: 316, y: 1014}
+    nodeType: 204
+    nextNodeGuid: b2982b9e-c42c-482b-a410-71257b587ca3
+  - nodeGuid: b2982b9e-c42c-482b-a410-71257b587ca3
+    nodeName: Draw
+    nodePosition: {x: 316, y: 1114}
+    nodeType: 201
+    nextNodeGuid: 042d4dd0-56ec-4078-8e46-59a5c2e66b79
+  - nodeGuid: 042d4dd0-56ec-4078-8e46-59a5c2e66b79
+    nodeName: Bet
+    nodePosition: {x: 316, y: 1214}
+    nodeType: 204
+    nextNodeGuid: e41b0648-f888-4d4b-aa5b-1d3e02539b26
+  - nodeGuid: e41b0648-f888-4d4b-aa5b-1d3e02539b26
+    nodeName: Roll
+    nodePosition: {x: 316, y: 1314}
+    nodeType: 203
+    nextNodeGuid: 60ba4343-6807-42dd-94df-fee77fd9ceaf
+  - nodeGuid: 60ba4343-6807-42dd-94df-fee77fd9ceaf
+    nodeName: Bet
+    nodePosition: {x: 316, y: 1414}
+    nodeType: 204
+    nextNodeGuid: 4ebf5406-0cf4-435b-aebb-51e1629096cc
+  - nodeGuid: 4ebf5406-0cf4-435b-aebb-51e1629096cc
+    nodeName: Open
+    nodePosition: {x: 316, y: 1514}
+    nodeType: 205
+    nextNodeGuid: 36355d71-dce2-47f1-b2de-748660ee2126
+  - nodeGuid: 36355d71-dce2-47f1-b2de-748660ee2126
+    nodeName: Showdown
+    nodePosition: {x: 316, y: 1614}
+    nodeType: 207
+    nextNodeGuid: 92a2846f-642c-48a8-9c1a-175805eff4e7
+  endNodes:
+  - nodeGuid: 608af201-4d80-4f55-9945-4f90f43ddc74
+    nodeName: Return Home
+    nodePosition: {x: 271, y: 1869}
+    nodeType: 1
+  addFlags: []
+  removeFlages: []
+  requiredFlags: []
+  blockedFlags: []
