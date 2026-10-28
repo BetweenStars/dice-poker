@@ -29,5 +29,12 @@ public class TitleUIManager : MonoBehaviour
         GameManager.Instance.ChangeScene("Stage Scene");
     }
     public void OnClickSetting() { }
-    public void OnClickQuit() { }
+    public void OnClickQuit()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
+    }
 }

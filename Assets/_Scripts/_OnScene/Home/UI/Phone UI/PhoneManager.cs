@@ -38,6 +38,11 @@ public class PhoneManager : MonoBehaviour, ILoadingAsyncInitializable
     {
         OpenTargetScreen(homeScreen);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     #endregion
 
     #region navigation-top-bar

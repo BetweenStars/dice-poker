@@ -9,4 +9,9 @@ public class StageDebuger : BaseStageUI
 
     public void OnClickCloseDebugTool() { Hide(); }
     public void OnClickOpenDebugTool() { Show(); }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
